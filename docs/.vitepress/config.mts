@@ -15,6 +15,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'BBS', link: '//bbs.ljheisenberg.cn' },
+      { text: 'Shop', link: '//shop.ljheisenberg.cn' },
     ],
 
     // sidebar: [

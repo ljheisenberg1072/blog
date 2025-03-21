@@ -10,9 +10,9 @@ hero:
     - theme: brand
       text: BBS
       link: //bbs.ljheisenberg.cn
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
+    - theme: alt
+      text: Shop
+      link: //shop.ljheisenberg.cn
 
 features:
   - title: Laravel
