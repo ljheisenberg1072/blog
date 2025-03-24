@@ -288,7 +288,7 @@ curl -H'Content-Type: application/json' -XPUT http://localhost:9200/products/_ma
 根据这些特性，我们可以将商品索引命名为 products_0，然后创建一个名为 products 的别名并指向 products_0，当我们需要修改商品索引的字段时，先尝试直接在 products_0 上修改，如果修改成功则不做任何操作，否则我们用新的结构创建一个新的索引 products_1，然后将商品数据同步到 products_1 中，同步完成后我们将 products 别名修改为指向 products_1，然后删除掉原有的 products_0 索引。
 
 由于我们在代码中的所有操作都是对 products 这个别名进行的，而我们在变更索引的整个过程中 products 始终指向一个可用的索引，这样就实现了 Elasticsearch 索引结构的无缝迁移。
-![图片](index.png)
+![图片](./public/index.png)
 
 #### 2. 实现流程框架
 接下来我们将按照上面的流程图来实现索引迁移功能，先创建一个命令：
