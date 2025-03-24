@@ -18,15 +18,17 @@ export default defineConfig({
       { text: 'Shop', link: '//shop.ljheisenberg.cn' },
     ],
 
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
+    sidebar: [
+      {
+        text: '文档',
+        items: [
+          { text: 'Linux服务器从零部署', link: '/linux-server-deployment-from-scratch' },
+          { text: 'Supervisor安装使用', link: '/supervisor-installation-and-usage' },
+          { text: 'Elasticsearch安装使用', link: '/elasticsearch-usage' },
+          { text: "Let's Encrypt添加SSL证书", link: "/let's-encrypt" },
+        ],
+      }
+    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ljheisenberg1072/blog' }
