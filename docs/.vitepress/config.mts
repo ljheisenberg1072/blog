@@ -7,7 +7,16 @@ export default defineConfig({
   description: "PHPer's Blog Website",
   srcDir: './src',
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.ico' }],
+    ['script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0ad869c70eb5cdab6b9e707037472ce6";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();`,
+    ]
   ],
   themeConfig: {
     logo: './logo.jpg',
