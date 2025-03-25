@@ -14,6 +14,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: '简历', link: '/my-resume' },
       { text: 'BBS', link: '//bbs.ljheisenberg.cn' },
       { text: 'Shop', link: '//shop.ljheisenberg.cn' },
     ],

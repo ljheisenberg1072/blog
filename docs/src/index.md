@@ -8,6 +8,9 @@ hero:
   tagline: Laravel/ThinkPHP/Webman/Hyperf
   actions:
     - theme: brand
+      text: 简历
+      link: /my-resume
+    - theme: alt
       text: BBS
       link: //bbs.ljheisenberg.cn
     - theme: alt
