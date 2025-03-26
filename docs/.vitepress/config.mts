@@ -32,10 +32,15 @@ export default defineConfig({
       {
         text: '文档',
         items: [
-          { text: 'Linux服务器从零部署', link: '/linux-server-deployment-from-scratch' },
-          { text: 'Supervisor安装使用', link: '/supervisor-installation-and-usage' },
-          { text: 'Elasticsearch安装使用', link: '/elasticsearch-usage' },
-          { text: "Let's Encrypt添加SSL证书", link: "/let's-encrypt" },
+          { text: 'Linux 服务器从零部署', link: '/linux-server-deployment-from-scratch' },
+          { text: "MySQL 安装使用", link: "/mysql-usage" },
+          { text: "Redis 安装使用", link: "/redis-usage" },
+          { text: 'Elasticsearch 安装使用', link: '/elasticsearch-usage' },
+          { text: 'WebSocket 使用', link: '/websocket' },
+          { text: 'Supervisor 安装使用', link: '/supervisor-installation-and-usage' },
+          { text: "Let's Encrypt 添加 SSL 证书", link: "/let's-encrypt" },
+          { text: "微信登录", link: "/wechat-login" },
+          { text: "浏览器/PC端/H5判断", link: "/browser-pc-h5" },
         ],
       }
     ],
