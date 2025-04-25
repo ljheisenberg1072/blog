@@ -23,17 +23,24 @@ outline: deep
 
 **注**：联系方式base64转码
 
+## 个人优势
+
+- 有独立开发部署网站Web/H5/小程序的能力。
+- 熟悉Linux服务端操作，Shell脚本编写。
+- 熟悉Python网页爬取，selenium+BeautifulSoup、OCR识别Tesseract。
+- 有良好的学习能力、沟通能力、解决问题能力，拥有较强的工作责任感。
 
 ## 技能清单
 
 以下均为我熟练使用的技能
 
-- 后端框架：Lavarel/ThinkPHP/Webman/Symfony/Zend
-- 前端框架：Bootstrap/HTML5/CSS3/Vue/React
-- 前端工具：Vite/Mix/SaSS/LeSS
-- 数据库相关：MySQL/Redis/Elasticsearch/PgSQL/MongoDB/SQLite
+- 后端框架：PHP (Lavarel/ThinkPHP/Webman/Symfony/Zend)、Python、Go
+- 前端框架：Vue/React/uni-app/Bootstrap/HTML5/CSS3/jQuery/AJAX
+- 前端工具：Vite/Mix/SaSS/LeSS/Webpack
+- 数据库相关：MySQL/Redis/Elasticsearch/MongoDB/SQLite/PostgreSQL
 - 版本管理、文档和自动化部署工具：Git/Svn/PHPDoc/Deployer
 - 单元测试：PHPUnit/SimpleTest
+- 安全：OAuth2、JWT、SSL、CSRF防护、XSS防护
 
 ## 工作经历
 
@@ -46,7 +53,7 @@ outline: deep
 **背景**：网站一开始用的DESTOON的网站管理系统建站，还是标签式语法，而且文档也不好找，修改也不方便，通过FTP上传文件覆盖来修改，后面基于Laravel完全重构，MySQL引擎从MyISAM换到InnoDB，使用Git工具GitHub仓库来管理提交代码。
 
 - **文章内容管理**：文章内容的编辑、审核、发布功能，支持图片、文字、视频等内容的发布。
-- **文章编辑器**：基于TinyMCE编辑器二次开发，支持微信公众号/36Kr/虎嗅/网易等复制粘贴自动上传。
+- **文章编辑器**：基于TinyMCE编辑器二次开发，支持微信公众号/36Kr/虎嗅/网易等复制粘贴自动上传一键采集。
 - **用户管理**：支持用户手机号注册、登录、密码找回、更换手机号，微信扫码登录，不过首次需要绑定手机号，下次可直接扫码登录。
 - **评论与互动**：文章默认开通评论，后台可关闭，允许用户对文章发表评论，支持评论的点赞、编辑、删除、举报等功能。允许用户对文章进行点赞、收藏、转发、分享。
 - **每日新品/快讯**：支持新品和快讯投稿，使用vue2组件构建表单，后台对投稿进行审核，审核结果会通过手机号、邮箱、网站消息同步推送到用户。
@@ -85,7 +92,7 @@ outline: deep
 项目技术栈：Laravel+Bootstrap+Vue2+Laravel-Admin+MySQL+Redis
 
 - **资讯内容管理**：文章内容的编辑、审核、发布功能，支持图片、文字、视频等内容的发布。
-- **资讯编辑器**：基于TinyMCE编辑器二次开发，支持微信公众号/36Kr/虎嗅/网易等复制粘贴自动上传。
+- **资讯编辑器**：基于TinyMCE编辑器二次开发，支持微信公众号/36Kr/虎嗅/网易等复制粘贴自动上传一键采集。
 - **用户管理**：用户通过邮箱注册登录，可自行修改密码和更换邮箱。
 - **订单管理**：奖项提报进入初审后，收取评审运营费，用户提报多个案例可分别提交生成订单，默认一起提交，如果后悔一起提交，可以选择拆单或者取消订单重新生成。
 - **支付管理**：支持支付宝/微信扫码在线支付、线下对公转账，在线支付后，订单会变成已支付状态，选择线下付款需要上传对公转账截图，后台审核通过后订单会从线下待审核变成线下已支付状态。
