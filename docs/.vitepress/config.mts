@@ -41,6 +41,7 @@ export default defineConfig({
           { text: "Let's Encrypt 添加 SSL 证书", link: "/let's-encrypt" },
           { text: "微信登录", link: "/wechat-login" },
           { text: "浏览器/PC端/H5判断", link: "/browser-pc-h5" },
+          { text: "物联网IoT", link: "/iot-demo" },
         ],
       }
     ],

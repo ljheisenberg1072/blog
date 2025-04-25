@@ -13,7 +13,7 @@ outline: deep
 - 使用 RabbitMQ 做消息队列
 
 ## 项目结构
-```pgsql
+```
 microservices-example/
 │
 ├── api-gateway/

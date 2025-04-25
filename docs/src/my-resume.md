@@ -46,7 +46,7 @@ outline: deep
 
 ### 苏州凡帝信息科技有限公司 （ 2017年2月 ~ 2025年1月 ）
 
-#### Foodaily每日食品网
+#### [Foodaily每日食品网](https://www.foodaily.com)
 
 **项目技术栈**：Laravel+Bootstrap+Vue2+Dcat-Admin+MySQL+Redis
 
@@ -87,7 +87,7 @@ outline: deep
 
 ---
 
-#### iSEE全球奖
+#### [iSEE全球奖](https://isee.foodaily.com)
 
 项目技术栈：Laravel+Bootstrap+Vue2+Laravel-Admin+MySQL+Redis
 
